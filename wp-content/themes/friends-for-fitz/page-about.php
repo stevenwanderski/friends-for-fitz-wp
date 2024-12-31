@@ -19,6 +19,8 @@
   )
 ); ?>
 
+<?php get_template_part('template-parts/about/body1')?>
+<?php get_template_part('template-parts/about/body2')?>
 <?php get_template_part('template-parts/donate-cta')?>
 
 <?php get_footer(); ?>

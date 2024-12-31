@@ -42,7 +42,7 @@ h2 {
   line-height: 40px;
 }
 
-.text-medium {
+.text-medium, .text-medium p {
   color: var(--color-black);
   font-size: 18px;
   font-weight: 400;
