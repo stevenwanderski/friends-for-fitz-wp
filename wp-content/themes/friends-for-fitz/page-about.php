@@ -19,4 +19,6 @@
   )
 ); ?>
 
+<?php get_template_part('template-parts/donate-cta')?>
+
 <?php get_footer(); ?>

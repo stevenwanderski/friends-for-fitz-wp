@@ -130,11 +130,11 @@
 .max-w-\[500px\] {
     max-width: 500px
 }
-.max-w-sm {
-    max-width: 24rem
-}
 .max-w-\[800px\] {
     max-width: 800px
+}
+.max-w-sm {
+    max-width: 24rem
 }
 .grow-0 {
     flex-grow: 0
@@ -193,9 +193,9 @@
 .border-b-\[3px\] {
     border-bottom-width: 3px
 }
-.border-black {
-    --tw-border-opacity: 1;
-    border-color: rgb(0 0 0 / var(--tw-border-opacity))
+.\!border-black {
+    --tw-border-opacity: 1 !important;
+    border-color: rgb(0 0 0 / var(--tw-border-opacity)) !important
 }
 .border-gray-lt {
     --tw-border-opacity: 1;
@@ -204,17 +204,13 @@
 .border-transparent {
     border-color: transparent
 }
-.\!border-black {
-    --tw-border-opacity: 1 !important;
-    border-color: rgb(0 0 0 / var(--tw-border-opacity)) !important
-}
 .border-b-green {
     --tw-border-opacity: 1;
     border-bottom-color: rgb(45 177 80 / var(--tw-border-opacity))
 }
-.border-b-black {
-    --tw-border-opacity: 1;
-    border-bottom-color: rgb(0 0 0 / var(--tw-border-opacity))
+.bg-\[\#269443\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(38 148 67 / var(--tw-bg-opacity))
 }
 .bg-black {
     --tw-bg-opacity: 1;
@@ -239,10 +235,6 @@
 .bg-yellow-lt {
     --tw-bg-opacity: 1;
     background-color: rgb(254 249 235 / var(--tw-bg-opacity))
-}
-.bg-\[\#269443\] {
-    --tw-bg-opacity: 1;
-    background-color: rgb(38 148 67 / var(--tw-bg-opacity))
 }
 .p-\[20px\] {
     padding: 20px
@@ -320,14 +312,14 @@
 .font-bold {
     font-weight: 700
 }
+.font-extrabold {
+    font-weight: 800
+}
 .font-light {
     font-weight: 300
 }
 .font-semibold {
     font-weight: 600
-}
-.font-extrabold {
-    font-weight: 800
 }
 .leading-\[150\%\] {
     line-height: 150%
@@ -341,6 +333,10 @@
 .leading-\[38px\] {
     line-height: 38px
 }
+.\!text-green-lt {
+    --tw-text-opacity: 1 !important;
+    color: rgb(234 247 238 / var(--tw-text-opacity)) !important
+}
 .text-gray-800 {
     --tw-text-opacity: 1;
     color: rgb(31 41 55 / var(--tw-text-opacity))
@@ -352,14 +348,6 @@
 .text-white {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity))
-}
-.text-green-lt {
-    --tw-text-opacity: 1;
-    color: rgb(234 247 238 / var(--tw-text-opacity))
-}
-.\!text-green-lt {
-    --tw-text-opacity: 1 !important;
-    color: rgb(234 247 238 / var(--tw-text-opacity)) !important
 }
 .antialiased {
     -webkit-font-smoothing: antialiased;
@@ -470,11 +458,11 @@ body {
     .lg\:hidden {
         display: none
     }
-    .lg\:max-w-full {
-        max-width: 100%
-    }
     .lg\:max-w-\[720px\] {
         max-width: 720px
+    }
+    .lg\:max-w-full {
+        max-width: 100%
     }
     .lg\:grid-cols-2 {
         grid-template-columns: repeat(2, minmax(0, 1fr))
