@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+:root {
+  --color-green: #2DB150;
+  --color-green-pale: #EAF7EE;
+  --color-green-medium: #BCE5C9;
+  --color-yellow: #F7D167;
+  --color-yellow-pale: #FEF9EB;
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+  --color-gray-light: #E5E5E5;
+}
+
+[x-cloak] {
+  display: none !important;
+}
+
+h1 {
+  color: var(--color-black);
+  font-size: 43px;
+  font-weight: 800;
+  line-height: 48px;
+}
+
+@media (min-width: 1000px) {
+  h1 {
+    font-size: 60px;
+    line-height: 60px;
+  }
+}
+
+h2 {
+  color: var(--color-black);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.text-medium {
+  color: var(--color-black);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.text-large {
+  color: var(--color-black);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.button {
+  border-radius: 999px;
+  padding: 18px 32px;
+  border: 0;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 300ms;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button-yellow {
+  background: var(--color-yellow);
+  color: var(--color-black);
+}
+
+.button-yellow:hover {
+  background-color: #ffe499;
+}
+
+.container-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.hr {
+  border: 0;
+  border-bottom: solid 2px var(--color-gray-light);
+  margin: 64px 0;
+}
+
+.mobile-nav-link {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
+  text-decoration: none;
+  padding: 14px 0;
+}
+
+.nav-link {
+  @apply block text-[18px] font-[600] leading-[18px] py-[14px] border-b border-transparent border-b-[2px] hover:border-black;
+}
+
+.footer-link {
+  @apply block text-[18px] font-[600] leading-[18px] hover:underline;
+}
+
+.wrap {
+  padding: 72px 20px;
+}
+
+@media (min-width: 1000px) {
+  .donate-cta {
+    background-image: url('../images/bg-donate-cta.jpg');
+    background-size: cover;
+    background-position: center center;
+  }
+}
