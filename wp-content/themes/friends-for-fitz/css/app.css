@@ -570,11 +570,17 @@ video {
 .mb-\[32px\] {
   margin-bottom: 32px;
 }
+.mb-\[36px\] {
+  margin-bottom: 36px;
+}
 .mb-\[40px\] {
   margin-bottom: 40px;
 }
 .mb-\[48px\] {
   margin-bottom: 48px;
+}
+.mb-\[4px\] {
+  margin-bottom: 4px;
 }
 .mb-\[72px\] {
   margin-bottom: 72px;
@@ -686,6 +692,9 @@ video {
 }
 .gap-\[40px\] {
   gap: 40px;
+}
+.gap-\[64px\] {
+  gap: 64px;
 }
 .gap-\[72px\] {
   gap: 72px;
@@ -1081,6 +1090,56 @@ blockquote > :not([hidden]) ~ :not([hidden]) {
   margin-top: calc(40px * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(40px * var(--tw-space-y-reverse));
 }
+.ff-default .ff-el-form-control {
+  border-radius: 4px !important;
+  border: 1px solid #A5A5A5 !important;
+  background: var(--color-white) !important;
+  font-size: 16px !important;
+  padding: 12px !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+.ff-el-group {
+  margin-bottom: 24px !important;
+}
+.ff-message-success {
+  background: var(--color-green-pale) !important;
+  border-radius: 20px !important;
+  padding: 24px !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.ff-message-success p {
+  font-weight: 700 !important;
+}
+.ff-message-success p,.ff-message-success p p {
+  color: var(--color-black);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+form.fluent_form_1 .ff-btn-submit:not(.ff_btn_no_style) {
+  background: var(--color-yellow) !important;
+  color: var(--color-black) !important;
+  border-radius: 999px;
+  padding: 18px 32px;
+  border: 0;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 300ms;
+}
+form.fluent_form_1 .ff-btn-submit:not(.ff_btn_no_style):hover {
+  cursor: pointer;
+}
+form.fluent_form_1 .ff-btn-submit:not(.ff_btn_no_style) {
+  background: var(--color-yellow);
+  color: var(--color-black);
+}
+form.fluent_form_1 .ff-btn-submit:not(.ff_btn_no_style):hover {
+  background-color: #ffe499;
+}
 @media (min-width: 1000px) {
   .donate-cta {
     background-image: url(../images/bg-donate-cta.jpg?53ae1ee4107d7d08d2cefbf6912c5bc7);
@@ -1177,6 +1236,10 @@ blockquote > :not([hidden]) ~ :not([hidden]) {
     justify-content: space-between;
   }
 
+  .lg\:gap-0 {
+    gap: 0px;
+  }
+
   .lg\:gap-\[112px\] {
     gap: 112px;
   }
@@ -1191,6 +1254,18 @@ blockquote > :not([hidden]) ~ :not([hidden]) {
 
   .lg\:gap-\[40px\] {
     gap: 40px;
+  }
+
+  .lg\:border-r {
+    border-right-width: 1px;
+  }
+
+  .lg\:pl-\[72px\] {
+    padding-left: 72px;
+  }
+
+  .lg\:pr-\[72px\] {
+    padding-right: 72px;
   }
 
   .lg\:text-\[60px\] {

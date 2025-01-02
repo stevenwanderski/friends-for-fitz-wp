@@ -85,6 +85,12 @@
 .mt-\[4px\] {
     margin-top: 4px
 }
+.mb-\[36px\] {
+    margin-bottom: 36px
+}
+.mb-\[4px\] {
+    margin-bottom: 4px
+}
 .block {
     display: block
 }
@@ -192,6 +198,9 @@
 }
 .gap-\[8px\] {
     gap: 8px
+}
+.gap-\[64px\] {
+    gap: 64px
 }
 .space-y-\[40px\] > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
@@ -544,6 +553,18 @@ body {
     }
     .lg\:gap-\[40px\] {
         gap: 40px
+    }
+    .lg\:gap-0 {
+        gap: 0px
+    }
+    .lg\:border-r {
+        border-right-width: 1px
+    }
+    .lg\:pr-\[72px\] {
+        padding-right: 72px
+    }
+    .lg\:pl-\[72px\] {
+        padding-left: 72px
     }
     .lg\:text-\[60px\] {
         font-size: 60px
