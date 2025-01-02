@@ -136,6 +136,9 @@
 .max-w-sm {
     max-width: 24rem
 }
+.max-w-\[600px\] {
+    max-width: 600px
+}
 .grow-0 {
     flex-grow: 0
 }
@@ -175,10 +178,8 @@
 .gap-\[8px\] {
     gap: 8px
 }
-.space-y-4 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(1rem * var(--tw-space-y-reverse))
+.gap-\[40px\] {
+    gap: 40px
 }
 .space-y-\[40px\] > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
@@ -292,6 +293,9 @@
 }
 .text-center {
     text-align: center
+}
+.text-right {
+    text-align: right
 }
 .font-display {
     font-family: Grenze
@@ -479,6 +483,9 @@ body {
     }
     .lg\:grid-cols-\[498px_1fr\] {
         grid-template-columns: 498px 1fr
+    }
+    .lg\:grid-cols-\[1\.5fr_1fr\] {
+        grid-template-columns: 1.5fr 1fr
     }
     .lg\:flex-row {
         flex-direction: row

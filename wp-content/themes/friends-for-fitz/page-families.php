@@ -19,4 +19,7 @@
   )
 ); ?>
 
+<?php get_template_part('template-parts/families/body')?>
+<?php get_template_part('template-parts/donate-cta')?>
+
 <?php get_footer(); ?>

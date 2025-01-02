@@ -120,3 +120,10 @@ h2 {
     background-position: center center;
   }
 }
+
+blockquote {
+  background: #f9f9f9;
+  padding: 32px;
+  border-radius: 20px;
+  @apply space-y-[40px];
+}
