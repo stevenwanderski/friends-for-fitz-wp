@@ -113,17 +113,17 @@ h2 {
   padding: 72px 20px;
 }
 
+blockquote {
+  background: #f9f9f9;
+  padding: 32px;
+  border-radius: 20px;
+  @apply space-y-[40px];
+}
+
 @media (min-width: 1000px) {
   .donate-cta {
     background-image: url('../images/bg-donate-cta.jpg');
     background-size: cover;
     background-position: center center;
   }
-}
-
-blockquote {
-  background: #f9f9f9;
-  padding: 32px;
-  border-radius: 20px;
-  @apply space-y-[40px];
 }

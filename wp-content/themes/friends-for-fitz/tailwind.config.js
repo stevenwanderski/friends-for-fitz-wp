@@ -33,7 +33,8 @@ module.exports = {
           lt: '#FEF9EB'
         },
         gray: {
-          lt: '#E5E5E5'
+          lt: '#E5E5E5',
+          xlt: '#F9F9F9'
         }
       },
     },
