@@ -18,7 +18,9 @@
 
     <div class="middle flex flex-col gap-[24px] mb-[32px] pb-[32px] border-b border-gray-lt lg:flex-row lg:justify-between">
       <div class="facebook lg:order-1">
-        <?php get_template_part('template-parts/logo-facebook' ); ?>
+        <a href="https://www.facebook.com/friends.for.fitz.2024/">
+          <?php get_template_part('template-parts/logo-facebook' ); ?>
+        </a>
       </div>
 
       <p class="text-medium max-w-[480px]">

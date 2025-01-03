@@ -501,6 +501,14 @@ body {
 .wp-block[data-align=full] {
     max-width: 100%
 }
+.hover\:bg-\[\#C7F2D5\]:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(199 242 213 / var(--tw-bg-opacity))
+}
+.hover\:bg-\[\#44c867\]:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(68 200 103 / var(--tw-bg-opacity))
+}
 .hover\:underline:hover {
     text-decoration-line: underline
 }
