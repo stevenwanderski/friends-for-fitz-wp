@@ -43,6 +43,9 @@
 .m-8 {
     margin: 2rem
 }
+.m-0 {
+    margin: 0px
+}
 .mx-auto {
     margin-left: auto;
     margin-right: auto
@@ -70,11 +73,17 @@
 .mb-\[32px\] {
     margin-bottom: 32px
 }
+.mb-\[36px\] {
+    margin-bottom: 36px
+}
 .mb-\[40px\] {
     margin-bottom: 40px
 }
 .mb-\[48px\] {
     margin-bottom: 48px
+}
+.mb-\[4px\] {
+    margin-bottom: 4px
 }
 .mb-\[72px\] {
     margin-bottom: 72px
@@ -85,11 +94,8 @@
 .mt-\[4px\] {
     margin-top: 4px
 }
-.mb-\[36px\] {
-    margin-bottom: 36px
-}
-.mb-\[4px\] {
-    margin-bottom: 4px
+.mb-\[8px\] {
+    margin-bottom: 8px
 }
 .block {
     display: block
@@ -102,6 +108,9 @@
 }
 .\!inline-flex {
     display: inline-flex !important
+}
+.inline-flex {
+    display: inline-flex
 }
 .grid {
     display: grid
@@ -133,6 +142,12 @@
 .w-full {
     width: 100%
 }
+.w-\[60px\] {
+    width: 60px
+}
+.w-\[66px\] {
+    width: 66px
+}
 .max-w-\[174px\] {
     max-width: 174px
 }
@@ -153,6 +168,12 @@
 }
 .max-w-sm {
     max-width: 24rem
+}
+.max-w-\[700px\] {
+    max-width: 700px
+}
+.max-w-\[300px\] {
+    max-width: 300px
 }
 .grow-0 {
     flex-grow: 0
@@ -193,14 +214,14 @@
 .gap-\[40px\] {
     gap: 40px
 }
+.gap-\[64px\] {
+    gap: 64px
+}
 .gap-\[72px\] {
     gap: 72px
 }
 .gap-\[8px\] {
     gap: 8px
-}
-.gap-\[64px\] {
-    gap: 64px
 }
 .space-y-\[40px\] > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
@@ -278,6 +299,9 @@
 .p-\[20px\] {
     padding: 20px
 }
+.p-\[32px\] {
+    padding: 32px
+}
 .px-3 {
     padding-left: 0.75rem;
     padding-right: 0.75rem
@@ -321,6 +345,9 @@
 }
 .pt-\[3px\] {
     padding-top: 3px
+}
+.pb-\[8px\] {
+    padding-bottom: 8px
 }
 .text-center {
     text-align: center
@@ -542,6 +569,9 @@ body {
     .lg\:justify-between {
         justify-content: space-between
     }
+    .lg\:gap-0 {
+        gap: 0px
+    }
     .lg\:gap-\[112px\] {
         gap: 112px
     }
@@ -554,17 +584,14 @@ body {
     .lg\:gap-\[40px\] {
         gap: 40px
     }
-    .lg\:gap-0 {
-        gap: 0px
-    }
     .lg\:border-r {
         border-right-width: 1px
     }
-    .lg\:pr-\[72px\] {
-        padding-right: 72px
-    }
     .lg\:pl-\[72px\] {
         padding-left: 72px
+    }
+    .lg\:pr-\[72px\] {
+        padding-right: 72px
     }
     .lg\:text-\[60px\] {
         font-size: 60px
