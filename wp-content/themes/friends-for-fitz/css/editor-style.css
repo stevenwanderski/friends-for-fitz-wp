@@ -40,11 +40,11 @@
 .order-1 {
     order: 1
 }
-.m-8 {
-    margin: 2rem
-}
 .m-0 {
     margin: 0px
+}
+.m-8 {
+    margin: 2rem
 }
 .mx-auto {
     margin-left: auto;
@@ -88,14 +88,14 @@
 .mb-\[72px\] {
     margin-bottom: 72px
 }
+.mb-\[8px\] {
+    margin-bottom: 8px
+}
 .mt-\[40px\] {
     margin-top: 40px
 }
 .mt-\[4px\] {
     margin-top: 4px
-}
-.mb-\[8px\] {
-    margin-bottom: 8px
 }
 .block {
     display: block
@@ -139,17 +139,17 @@
 .w-\[50px\] {
     width: 50px
 }
-.w-full {
-    width: 100%
-}
 .w-\[60px\] {
     width: 60px
 }
-.w-\[66px\] {
-    width: 66px
+.w-full {
+    width: 100%
 }
 .max-w-\[174px\] {
     max-width: 174px
+}
+.max-w-\[300px\] {
+    max-width: 300px
 }
 .max-w-\[480px\] {
     max-width: 480px
@@ -163,17 +163,14 @@
 .max-w-\[600px\] {
     max-width: 600px
 }
+.max-w-\[700px\] {
+    max-width: 700px
+}
 .max-w-\[800px\] {
     max-width: 800px
 }
 .max-w-sm {
     max-width: 24rem
-}
-.max-w-\[700px\] {
-    max-width: 700px
-}
-.max-w-\[300px\] {
-    max-width: 300px
 }
 .grow-0 {
     flex-grow: 0
@@ -340,14 +337,17 @@
 .pb-\[72px\] {
     padding-bottom: 72px
 }
+.pb-\[8px\] {
+    padding-bottom: 8px
+}
 .pt-\[14px\] {
     padding-top: 14px
 }
 .pt-\[3px\] {
     padding-top: 3px
 }
-.pb-\[8px\] {
-    padding-bottom: 8px
+.pl-\[20px\] {
+    padding-left: 20px
 }
 .text-center {
     text-align: center

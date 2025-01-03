@@ -65,7 +65,7 @@
         )
       ); ?>
 
-      <span>
+      <span class="pl-[20px]">
         <?php get_template_part('template-parts/support-button' ); ?>
       </span>
     </nav>
