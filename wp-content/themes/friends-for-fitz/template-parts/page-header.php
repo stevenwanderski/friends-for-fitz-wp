@@ -10,9 +10,11 @@
         <?php echo $title; ?>
       </h1>
 
+      <?php if ($body): ?>
       <p class="text-medium">
         <?php echo $body; ?>
       </p>
+      <?php endif; ?>
     </div>
   </div>
 </div>
