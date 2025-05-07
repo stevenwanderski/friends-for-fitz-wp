@@ -23,15 +23,13 @@
   <div class="container-inner">
     <div class="main grid gap-[64px] lg:grid-cols-2 lg:gap-0">
       <div class="content lg:pr-[72px] lg:border-r lg:border-color-gray-lt">
-        <!-- <div class="header max-w-[600px] mb-[36px]">
-          <h2 class="mb-[24px]">Become a Sponsor.</h2>
-
+        <div class="header max-w-[600px] mb-[36px]">
           <p class="text-medium">
-            We'd love to hear from you! Reach out with any questions, feedback, or to learn more about how you can get involved.
+            Please use the form below to select your sponsorship level and be sure to upload a logo to be displayed at the fundraiser.
           </p>
-        </div> -->
+        </div>
 
-        <?php echo do_shortcode('[fluentform id="3"]'); ?>
+        <?php echo do_shortcode('[fluentform id="4"]'); ?>
       </div>
 
       <div class="info flex flex-col gap-[72px] lg:pl-[72px]">

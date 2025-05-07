@@ -60,9 +60,13 @@
 
         <hr class="hr">
 
-        <p class="text-medium">
+        <p class="text-medium mb-8">
           Sponsors are essential to making Friends for Fitz Fest 2025 a success, and we invite local businesses and community members to join us in bringing this event to life. Your sponsorship helps cover event costs and maximizes our impact for families in need.
         </p>
+
+        <a href="/sponsor" class="button button-yellow">
+          Click to Become a Sponsor
+        </a>
       </div>
 
       <div class="image-wrap hidden lg:block">
