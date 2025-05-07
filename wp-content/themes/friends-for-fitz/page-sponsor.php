@@ -29,7 +29,7 @@
           </p>
         </div>
 
-        <?php echo do_shortcode('[fluentform id="4"]'); ?>
+        <?php echo do_shortcode('[fluentform id="3"]'); ?>
       </div>
 
       <div class="info flex flex-col gap-[72px] lg:pl-[72px]">
