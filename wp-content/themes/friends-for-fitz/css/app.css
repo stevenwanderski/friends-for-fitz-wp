@@ -558,6 +558,9 @@ video {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+.mb-16 {
+  margin-bottom: 4rem;
+}
 .mb-8 {
   margin-bottom: 2rem;
 }
@@ -596,12 +599,6 @@ video {
 }
 .mt-\[4px\] {
   margin-top: 4px;
-}
-.mb-12 {
-  margin-bottom: 3rem;
-}
-.mb-16 {
-  margin-bottom: 4rem;
 }
 .block {
   display: block;

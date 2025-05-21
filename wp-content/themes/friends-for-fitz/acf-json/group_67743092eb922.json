@@ -77,13 +77,6 @@
                 "operator": "==",
                 "value": "page-contact.php"
             }
-        ],
-        [
-            {
-                "param": "post_template",
-                "operator": "==",
-                "value": "page-sponsor.php"
-            }
         ]
     ],
     "menu_order": -1,
@@ -97,5 +90,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1744216895
+    "modified": 1747837235
 }

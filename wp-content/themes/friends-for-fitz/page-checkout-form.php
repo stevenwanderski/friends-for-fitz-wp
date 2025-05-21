@@ -1,4 +1,4 @@
-<?php /* Template Name: Sponsor */ ?>
+<?php /* Template Name: Checkout Form */ ?>
 
 <?php get_header(); ?>
 
@@ -8,7 +8,6 @@
   $title = get_the_title();
   $page_header = get_field('page_header');
   $form_shortcode = get_field('form_shortcode');
-  $hero_body = $page_header['body'];
 ?>
 
 <?php get_template_part(
@@ -16,7 +15,7 @@
   null,
   array(
     'title' => $title,
-    'body' => $hero_body
+    'body' => null
   )
 ); ?>
 
