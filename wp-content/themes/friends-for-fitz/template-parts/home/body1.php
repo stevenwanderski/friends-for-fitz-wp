@@ -28,7 +28,7 @@
           'template-parts/arrow-button',
           null,
           array(
-            'text' => 'Friends for Fitz Fest 2025',
+            'text' => 'Friends for Fitz Fest 2026',
             'href' => '/events',
           )
         ); ?>
