@@ -29,7 +29,7 @@
     </div>
 
     <div class="bottom flex flex-col gap-[24px] pb-[32px] lg:flex-row lg:justify-between lg:items-center">
-      <div>&copy; 2024. All rights reserved.</div>
+      <div>&copy; <?php print date('Y'); ?>. All rights reserved.</div>
       <div>Designed and built by <a href="https://stevenwanderski.com" target="_blank" class="text-green hover:underline">Happy Code</a></div>
     </div>
   </div>
